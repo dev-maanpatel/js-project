@@ -68,3 +68,14 @@
       color: white;
       margin-top: 10px;
     }
+
+    .btn-yellow{
+      background-color: #ff9f0a ;
+    }
+    .btn-black{
+      background-color: #2a2a2c;
+    }
+    .b-50{
+      border-radius: 50%;
+    }
+   
