@@ -23,7 +23,6 @@
       padding: 30px;
       border-radius: 20px;
       box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
-      width: 320px;
     }
 
     .calc-title {
@@ -54,7 +53,6 @@
       border-radius: 12px;
       padding: 10px 20px;
       margin: 6px;
-      width: 60px;
       transition: background 0.3s ease;
     }
 
