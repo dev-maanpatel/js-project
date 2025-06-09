@@ -8,7 +8,7 @@
 }
 
 .background {
-    background-image: url(../image/calcworkshop-math-problems.avif);
+    background-image: url(../image/360_F_127102793_T3xjCOEUKV5vy3WgNMxpDRnEMSFFHh5b.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -53,7 +53,7 @@
       border-radius: 12px;
       padding: 10px 20px;
       margin: 6px;
-      transition: background 0.3s ease;
+      transition: all 0.3s ease;
     }
 
     .calc-btn:hover {
