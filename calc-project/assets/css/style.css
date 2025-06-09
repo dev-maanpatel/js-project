@@ -78,4 +78,19 @@
     .b-50{
       border-radius: 50%;
     }
-   
+    .btn-black:active {
+    transform: scale(0.95);
+    background-color: #1f1f1f;
+    }
+    .btn-black:hover {
+    background-color: #444;
+    box-shadow: 0 0 10px #999;
+    }
+
+
+    /* trasparent background  */
+/* .calculator-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+} */

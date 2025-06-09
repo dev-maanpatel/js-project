@@ -12,7 +12,7 @@ let answer = document.getElementById("answer")
       answer.value = v1 / v2
     }
     function percentage(v1, v2) {
-      answer.value = (v1 / v2) * 100
+      answer.value = (v2 / v1) * 100
     }
     function clear() {
       document.getElementById("answer").value = ""
