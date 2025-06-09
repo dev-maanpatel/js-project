@@ -11,6 +11,9 @@ let answer = document.getElementById("answer")
     function divison(v1, v2) {
       answer.value = v1 / v2
     }
+    function percentage(v1, v2) {
+      answer.value = (v1 / v2) * 100
+    }
     function clear() {
       document.getElementById("answer").value = ""
       document.getElementById("v1").value = ""
@@ -31,6 +34,9 @@ let answer = document.getElementById("answer")
       })
       $("#div").on("click", function () {
         divison(parseFloat(element1.value), parseFloat(element2.value))
+      })
+      $("#per").on("click", function () {
+        percentage(parseFloat(element1.value), parseFloat(element2.value))
       })
       $("#clear").on("click", function () {
         clear();
